@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Jura:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 85px;
+    z-index: 1;
+    width: 1920px;
+}
+
+nav {
+    display: flex;
+    
+}
+
+.h1_input {
+    display: flex;
+    position: relative;
+    left: 270px;
+}
+
+.h1_input h1 {
+    color: white;
+    font-size: 46.1px;
+    margin: 8px 10px;
+    font-weight: 200;
+}
+
+.h1_input input {
+    height: 30px;
+    width: 240px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 17px;
+    padding: 0px 10px;
+    background-color: #ffffff9c;
+    color: white;
+    margin: 0px 0px 0px 30px;
+    position: relative;
+    top: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    left: 500px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+ul li {
+    font-size: 24px;
+    position: relative;
+    left: 820px;
+    top: 25px;
+    height: 10px;
+}
+
+.video-bg {
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+z-index: -1;
+}
+
+.WellpaperVideo {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.JDP-Top1 {
+font-size: 128px;
+font-family: 'inspiration';
+position: absolute;
+color: white;
+font-weight: 200;
+z-index: 1;
+left: 40px;
+}
+
+.button {
+    position: relative;
+    left: 450px;
+    top: -350px;
+}
+
+.top1 {
+    width: 1270px;
+    position: relative;
+    height: 150px;
+    font-family: 'Jura';
+    color: white;
+    top: 970px;
+left: 335px;
+margin: 10px;
+}
+
+.top1_h1 {
+    width: 477px;
+    font-size: 40px;
+    left: 374px;
+    position: relative;
+margin-bottom: 10px;
+}
+
+.top1_p1 {
+width: 1080px;
+font-size: 24px;
+position: relative;
+left: 145px;
+}
+
+.top1_img {
+    position: relative;
+    top: -100px;
+}
+
+.top2 {
+    width: 1270px;
+    position: relative;
+    height: 250px;
+    font-family: 'Jura';
+    color: white;
+    top: 970px;
+left: 335px;
+}
+
+.top2_h1 {
+    
+    font-size: 40px;
+    left: 364px;
+    position: relative;
+margin-bottom: 10px;
+}
+
+.top2_p1 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.top2_p2 {
+font-size: 24px;
+
+}
+
+.carVideo {
+    width: 748px;
+    height: 262px;
+    left: 450px;
+    position: relative;
+    
+    top: 1050px;
+}
+
+.BlackWellpaper {
+    background-color: black;
+    position: absolute;
+    width: 1362px;
+    height: 5469px;
+    border-radius: 20px;
+    opacity: 60%;
+    left: 279px;
+    top: 920px;
+z-index: -1;
+}
+
+.wellpapecDark {
+    background-image: url('Dark_Wellpaper_JDM\ 1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 920px;
+z-index: -2;
+}
+
+.JdmCompany {
+    width: 1050px;
+    position: relative;
+    height: 120px;
+    font-family: 'Jura';
+    color: white;
+    top: 1080px;
+left: 335px;
+display: flex;
+}
+
+.jdmDiv {
+    width: 130px;
+height: 100px;
+}
+
+.toH2 {
+    position: relative;
+    top: -35px;
+    left: 15px;
+}
+
+.SuH2 {
+    position: relative;
+top: -50px;
+left: 17px;
+}
+
+.HoH2 {
+    position: relative;
+    top: -35px;
+    left: 26px;
+}
+
+.mitsubishi {
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.NiH2 {
+    position: relative;
+    top: -20px;
+    left: 13px;
+}
+
+.mitsuoka {
+position: relative;
+left: 26px;
+}
+
+.Mah2 {
+    position: relative;
+    top: -15px;
+    left: 12px;
+}
+
+.suzDiv {
+    position: relative;
+    top: -10px;
+}
+
+.honDiv {
+    position: relative;
+    top: 6px;
+}
+
+.mitsuDiv {
+    position: relative;
+    top: -9px;
+}
+
+.nissDiv {
+    position: relative;
+    top: -1px;
+}
+
+.mitsuDiv {
+    position: relative;
+    
+}
+
+.mazDiv {
+
+}
