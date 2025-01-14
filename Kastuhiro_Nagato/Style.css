@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('./arkhip.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('./arkhip.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+
+
+.wellpaper_2 {
+    background-image: url('smokey-nagata_2.jpg');
+    background-position: center;
+    width: 1920px;
+    height: 1080px;
+    position: fixed;
+z-index: -1;
+
+}
+
+
+
+.header {
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 85px;
+    z-index: 1;
+    width: 1920px;
+}
+
+nav {
+    display: flex;
+    
+}
+
+.h1_input {
+    display: flex;
+    position: relative;
+    left: 270px;
+}
+
+.h1_input h1 {
+    color: white;
+    font-size: 46.1px;
+    font-family: Joan;
+    margin: 8px 10px;
+    font-weight: 200;
+}
+
+.h1_input input {
+    height: 30px;
+    width: 240px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 17px;
+    padding: 0px 10px;
+    background-color: #ffffff9c;
+    color: white;
+    margin: 0px 0px 0px 30px;
+    position: relative;
+    top: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    left: 500px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+ul li {
+    font-size: 24px;
+    position: relative;
+    left: 820px;
+    top: 25px;
+    height: 10px;
+}
+
+.top1 {
+    color: white;
+    padding: 0px;
+    width: 1260px;
+    left: 342px;
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    
+}
+
+.mainTopSecret {
+    width: 250px;
+    
+    position: relative;
+    left: 500px;
+    font-family: "Kings", serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+.top1 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: 200;
+    
+}
+
+.imgNagato{
+    width: 986px;
+    height: 452px;
+    left: 446px;
+    top: 60px;
+    position: relative;
+
+}
+
+.top2 {
+    color: white;
+    left: 343px;
+    position: relative;
+    width: 1260px;
+    
+}
+
+.top2 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 1.3;
+    font-weight: 200;
+    position: relative;
+    top: 80px;
+    margin: 0 0 15px;
+}
+
+
+
+.smokey_the_bandit {
+    position: relative;
+    left: 474px;
+    top: 125px;
+    line-height: 1;
+}
+
+.top3 {
+    color: white;
+    width: 1229px;
+    height: 943px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    top: 180px;
+    left: 343px;
+    position: relative;
+    line-height: 1.2;
+}
+
+.text1_top3 {
+    
+    margin-bottom: 5px;
+}
+
+.top3_weight_q {
+    width: 694px;
+    position: relative;
+    left: 520px;
+    top: -270px;
+    margin-bottom: 22px;
+}
+.top4_weight_q {
+    position: relative;
+    top: -270px;
+    margin-bottom: 10px;
+}
+
+.heading {
+    top: -270px;
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.nagato_1{
+    position: relative;
+    top: 10px;
+
+}
+
+.Katsuhiko_Nagato{
+    position: relative;
+    top: -270px;
+    left: 825px;
+}
+
+.top5_weight_q{
+    width: 817px;
+    top: -580px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.heading_2{
+    top: -585px;
+position: relative;
+font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.top6_weight_q {
+    
+    top: -585px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.V12 {
+    color: white;
+    width: 1229px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    top: 170px;
+    left: 343px;
+    position: relative;
+    line-height: 1.2;
+}
+
+.heading_3 {
+    font-weight: 400;
+    margin-bottom: 10px;
+position: relative;
+left: 540px;
+width: 122px;
+}
+
+.supraV12 {
+    left: 260px;
+position: relative;
+margin-bottom: 10px;
+}
+
+.Fusion_RR_Skyline_R34{
+    color: white;
+    width: 1229px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    top: 170px;
+    left: 343px;
+    position: relative;
+    line-height: 1.2;
+}
+
+.Fusion_RR {
+    font-weight: 400;
+    margin-bottom: 10px;
+position: relative;
+left: 495px;
+width: 247px;
+}
+
+.r34 {
+    left: 260px;
+position: relative;
+margin-bottom: 10px;
+}
+
+
+.Secter_Supra {
+    color: white;
+    width: 1229px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    top: 170px;
+    left: 343px;
+    position: relative;
+    line-height: 1.2;
+}
+
+.Secter_Supra img {
+    left: 260px;
+position: relative;
+margin-bottom: 10px;
+}
+
+.Secter_Supra h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+position: relative;
+left: 430px;
+width: 340px;
+}
+
+.Nissan_s15 {
+    color: white;
+    width: 1229px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    top: 170px;
+    left: 343px;
+    position: relative;
+    line-height: 1.2;
+}
+.Nissan_s15 h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+position: relative;
+left: 395px;
+width: 472px;
+}
+
+.Nissan_s15 img {
+    left: 260px;
+position: relative;
+margin-bottom: 10px;
+}
+
+.SkylineVR {
+    color: white;
+    width: 1229px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    top: 170px;
+    left: 343px;
+    position: relative;
+    line-height: 1.2;
+}
+
+.skyline {
+    font-weight: 400;
+    margin-bottom: 10px;
+position: relative;
+left: 490px;
+width: 218px;
+}
+
+.SkylineVR img {
+    left: 260px;
+position: relative;
+margin-bottom: 10px;
+}
+
+.sky {
+    font-weight: 400;
+    margin-bottom: 10px;
+position: relative;
+
+width: 236px;
+}
+
+.blackWellpaper {
+    position: absolute;
+    background-color: black;
+    padding: 681px;
+    top: 120px;
+    left: 279px;
+    border-radius: 20px;
+    opacity: 70%;
+    height: 4230px;
+    z-index: -1;
+}

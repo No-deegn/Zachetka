@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style-form.css">
+</head>
+<body>
+    
+    <header class="header">
+        <nav>
+            <div class="h1_input">
+                <h1>JDM car</h1>
+                <input type="text" placeholder="Поиск">
+            </div>
+            <ul>
+
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+    
+    <form id="main-form" onsubmit="return checkForm(this)" method="post" class="styleform">
+        <label for="name">Name</label><br>
+        <input type="text" name="name" placeholder="Name" id="name" class="sizeStyle input"><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" placeholder="Password" id="pass" class="sizeStyle input"><br>
+        <label for="repass">Check password</label><br>
+        <input type="password" name="checkPassword" placeholder="Check password" id="checkPass" class="sizeStyle input"><br>
+    <span>Pol:</span>
+    <input type="radio" name="state" id="female" value="Man" class="sizeRadio">
+    <label for="male">Man</label>
+    <input type="radio" name="state" id="female" value="Women" class="sizeRadio">
+    <label for="female">Women</label><br>
+    <div id="error" style="color: red;" ></div>
+    <input type="submit" name="submit" id="]Done" value="Ready" class="bottom">
+</form>
+
+<div class="wellpaper"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

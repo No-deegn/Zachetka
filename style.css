@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Jura:wght@300..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,12 +12,16 @@
     background-color: rgba(0, 0, 0, 0.788);
     height: 85px;
     z-index: 1;
-    width: 1920px;
+    width: 100%;
 }
 
 nav {
     display: flex;
-    
+
+}
+
+h1,h2 {
+    width: 50%;
 }
 
 .h1_input {
@@ -49,7 +54,6 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    left: 500px;
 }
 
 ul a {
@@ -67,12 +71,12 @@ ul li {
 }
 
 .video-bg {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute;
-z-index: -1;
+    position: fixed;
+    z-index: -1;
 }
 
 .WellpaperVideo {
@@ -86,19 +90,19 @@ z-index: -1;
 }
 
 .JDP-Top1 {
-font-size: 128px;
-font-family: 'inspiration';
-position: absolute;
-color: white;
-font-weight: 200;
-z-index: 1;
-left: 40px;
+    font-size: 128px;
+    font-family: 'inspiration';
+    position: absolute;
+    color: white;
+    font-weight: 200;
+    z-index: 1;
+    left: 40px;
 }
 
 .button {
     position: relative;
     left: 450px;
-    top: -350px;
+    top: -450px;
 }
 
 .top1 {
@@ -108,8 +112,8 @@ left: 40px;
     font-family: 'Jura';
     color: white;
     top: 970px;
-left: 335px;
-margin: 10px;
+    left: 335px;
+    margin: 10px;
 }
 
 .top1_h1 {
@@ -117,14 +121,14 @@ margin: 10px;
     font-size: 40px;
     left: 374px;
     position: relative;
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .top1_p1 {
-width: 1080px;
-font-size: 24px;
-position: relative;
-left: 145px;
+    width: 1080px;
+    font-size: 24px;
+    position: relative;
+    left: 145px;
 }
 
 .top1_img {
@@ -139,24 +143,24 @@ left: 145px;
     font-family: 'Jura';
     color: white;
     top: 970px;
-left: 335px;
+    left: 335px;
 }
 
 .top2_h1 {
-    
+
     font-size: 40px;
     left: 364px;
     position: relative;
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .top2_p1 {
-font-size: 24px;
-margin-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .top2_p2 {
-font-size: 24px;
+    font-size: 24px;
 
 }
 
@@ -165,8 +169,253 @@ font-size: 24px;
     height: 262px;
     left: 450px;
     position: relative;
-    
+
     top: 1050px;
+}
+
+
+
+.JdmCompany {
+    width: 1050px;
+    position: relative;
+    height: 120px;
+    font-family: 'Jura';
+    color: white;
+    top: 1080px;
+    left: 335px;
+    display: flex;
+}
+
+.jdmDiv {
+    width: 130px;
+    height: 120px;
+}
+
+.toH2 {
+    position: relative;
+    top: -35px;
+    left: 15px;
+}
+
+.SuH2 {
+    position: relative;
+    top: -50px;
+    left: 17px;
+}
+
+.HoH2 {
+    position: relative;
+    top: -35px;
+    left: 26px;
+}
+
+
+
+.NiH2 {
+    position: relative;
+    top: -20px;
+    left: 13px;
+}
+
+
+
+.Mah2 {
+    position: relative;
+    top: -15px;
+    left: px;
+}
+
+.suzDiv {
+    position: relative;
+    top: -10px;
+    margin-left: 20px;
+}
+
+.honDiv {
+    position: relative;
+    top: 6px;
+    margin-left: 20px;
+}
+
+.mitsuDiv {
+    position: relative;
+    top: -3px;
+    margin: 0px 0px 0px 40px;
+}
+
+.nissDiv {
+    position: relative;
+    top: -1px;
+    margin: 0px 20px 0px 20px;
+}
+
+.mitsDiv {
+    position: relative;
+    top: -1px;
+    margin: 0px 20px 0px 20px;
+
+}
+
+
+
+.mazDiv {
+    top: 10px;
+}
+
+.nameCar {
+    font-size: 36px;
+}
+
+.mitsuoka {
+    position: relative;
+    left: 56px;
+}
+
+.mitsubishi {
+    position: relative;
+    left: 45px;
+    top: 5px;
+}
+
+.toyota {
+    position: relative;
+    left: 23px;
+}
+
+.suzuki {
+    position: relative;
+    left: 20px;
+}
+
+.honda {
+    position: relative;
+    left: 15px;
+}
+
+.nissan {
+    position: relative;
+    left: 18px;
+}
+
+.mazda {
+    position: relative;
+    left: 6px;
+}
+
+.top4 {
+    width: 1270px;
+    position: relative;
+    height: 250px;
+    font-family: 'Jura';
+    color: white;
+    top: 1150px;
+    left: 335px;
+    margin-bottom: 20px;
+}
+
+.top4_h1 {
+    font-size: 40px;
+    left: 364px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.top4_h2 {
+    font-size: 20px;
+
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.top4 p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.top5_EventSport {
+    width: 1270px;
+    position: relative;
+    height: 250px;
+    font-family: 'Jura';
+    color: white;
+    top: 1150px;
+    left: 335px;
+    display: flex;
+}
+
+.sizeheading {
+    font-size: 32px;
+    font-weight: 200;
+width: 380px ;
+}
+
+.photo {
+    margin-right: 65px;
+}
+
+.posionaltextOut {
+    position: relative;
+    left: 335px;
+    width: 50%;
+    font-family: 'Jura';
+    color: white;
+    top: 1150px;
+    margin-bottom: 20px;
+}
+
+
+.Tunig {
+    font-size: 32px;
+
+}
+
+.TextOut1 {
+    font-size: 24px;
+
+}
+
+.TextOut2 {
+    font-size: 20px;
+}
+
+.MainPositionalPhoto {
+    position: relative;
+    left: 597px;
+    font-family: 'Jura';
+    color: white;
+    top: 1150px;
+    margin-bottom: 20px;
+}
+
+.mainPosional {
+    font-family: 'Jura';
+    font-size: 20px;
+    top: 1135px;
+    color: white;
+    position: relative;
+    left: 335px;
+    width: 1262px;
+    font-size: 200;
+}
+
+.Katsuhiko_NagatoLilte {
+    position: relative;
+    left: 1315px;
+    top: 1135px;
+    margin-top: 40px;
+}
+
+.textEnd {
+    width: 917px;
+    position: relative;
+    top: 920px;
+}
+
+.TopSecret {
+    position: relative;
+    left: 335px;
+    top: 920px;
+    margin-top: 40px;
 }
 
 .BlackWellpaper {
@@ -178,7 +427,7 @@ font-size: 24px;
     opacity: 60%;
     left: 279px;
     top: 920px;
-z-index: -1;
+    z-index: -1;
 }
 
 .wellpapecDark {
@@ -186,95 +435,9 @@ z-index: -1;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1920px;
+    width: 100%;
     height: 1080px;
     position: absolute;
     top: 920px;
-z-index: -2;
-}
-
-.JdmCompany {
-    width: 1050px;
-    position: relative;
-    height: 120px;
-    font-family: 'Jura';
-    color: white;
-    top: 1080px;
-left: 335px;
-display: flex;
-}
-
-.jdmDiv {
-    width: 130px;
-height: 100px;
-}
-
-.toH2 {
-    position: relative;
-    top: -35px;
-    left: 15px;
-}
-
-.SuH2 {
-    position: relative;
-top: -50px;
-left: 17px;
-}
-
-.HoH2 {
-    position: relative;
-    top: -35px;
-    left: 26px;
-}
-
-.mitsubishi {
-    position: relative;
-    left: 15px;
-    top: 5px;
-}
-
-.NiH2 {
-    position: relative;
-    top: -20px;
-    left: 13px;
-}
-
-.mitsuoka {
-position: relative;
-left: 26px;
-}
-
-.Mah2 {
-    position: relative;
-    top: -15px;
-    left: 12px;
-}
-
-.suzDiv {
-    position: relative;
-    top: -10px;
-}
-
-.honDiv {
-    position: relative;
-    top: 6px;
-}
-
-.mitsuDiv {
-    position: relative;
-    top: -9px;
-}
-
-.nissDiv {
-    position: relative;
-    top: -1px;
-}
-
-.mitsuDiv {
-    position: relative;
-    
-}
-
-.mazDiv {
-
+    z-index: -2;
 }

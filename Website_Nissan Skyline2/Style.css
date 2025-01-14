@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 85px;
+    z-index: 1;
+    width: 1920px;
+}
+
+nav {
+    display: flex;
+    
+}
+
+.h1_input {
+    display: flex;
+    position: relative;
+    left: 270px;
+}
+
+.h1_input h1 {
+    color: white;
+    font-size: 46.1px;
+    margin: 8px 10px;
+    font-weight: 200;
+}
+
+.h1_input input {
+    height: 30px;
+    width: 240px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 17px;
+    padding: 0px 10px;
+    background-color: #ffffff9c;
+    color: white;
+    margin: 0px 0px 0px 30px;
+    position: relative;
+    top: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    left: 500px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+ul li {
+    font-size: 24px;
+    position: relative;
+    left: 820px;
+    top: 25px;
+    height: 10px;
+}
+
+.top_1 {
+    width: 1223px;
+    color: white;
+    padding: 0px;
+    font-family: "Jura", serif;
+    left: 349px;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+}
+.top_1 h2{
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+    left: 500px;
+    width: 255px;
+}
+
+.top_1 p {
+    font-size: 24px;
+     margin-bottom: 10px;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: 200;
+}
+
+.p1 {
+    font-size: 25px;
+    width: 922px;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: 200;
+    position: relative;
+    left: 313px;
+    top: -289px;
+}
+
+.p2 {
+    font-size: 25px;
+    width: 922px;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: 200;
+    position: relative;
+    left: 313px;
+    top: -280px;
+}
+
+.top_2 {
+    width: 1223px;
+    color: white;
+    padding: 0px;
+    height: 320px;
+    left: 349px;
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    margin-bottom: 10px;
+    font-family: "Jura", serif;
+}
+
+.heading1{
+    font-size: 32px;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+
+.heading2 {
+    font-size: 31px;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 10px;
+    width: 304px;
+    
+}
+
+.Line1 {
+    position: relative;
+    
+margin-bottom: 10px;
+top: 40px;
+
+left: 349px;
+}
+
+.top_3 {
+    width: 1223px;
+    color: white;
+    padding: 0px;
+    height: 275px;
+    left: 349px;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+    font-weight: 200;
+    font-family: "Jura", serif;
+}
+
+.top3_p1 {
+    width: 930px;
+    left: 313px;
+position: relative;
+top: -280px;
+margin-bottom: 10px;
+}
+
+.top3_p2 {
+    width: 930px;
+    left: 313px;
+position: relative;
+top: -280px;
+}
+
+.top_3 h2 {
+    font-size: 32px;
+    font-weight: 200;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.Line2 {
+    top: 45px;
+position: relative;
+left: 349px;
+
+}
+
+.top_4 {
+    width: 1223px;
+    color: white;
+    padding: 0px;
+    height: 320px;
+    left: 349px;
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-family: "Jura", serif;
+}
+
+.top4_h1 {
+    font-size: 32px;
+    font-weight: 200;
+    position: relative;
+    margin-bottom: 10px;
+width: 309px;
+top: -370px;
+}
+
+.top4_p1{
+    width: 930px;
+    left: 313px;
+position: relative;
+top: -270px;
+margin-bottom: 20px;
+}
+
+.top4_p2 {
+    width: 930px;
+    left: 313px;
+position: relative;
+top: -280px;
+margin-bottom: 10px;
+}
+
+.top4_h2 {
+    font-size: 32px;
+    font-weight: 200;
+    position: relative;
+    margin-bottom: 10px;
+top: -290px;
+left: 313px;
+
+}
+
+.top4_h3 {
+    font-size: 26px;
+    font-weight: 200;
+    position: relative;
+    margin-bottom: 10px;
+top: -380px;
+left: 313px;
+}
+
+.Line3 {
+    top: 110px;
+    position: relative;
+    left: 351px;
+}
+
+.top_5 {
+    width: 1223px;
+    color: white;
+    padding: 0px;
+    height: 320px;
+    left: 349px;
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-family: "Jura", serif;
+}
+
+.carNS {
+    margin-right: 65px;
+}
+
+.top5_h1 {
+    font-size: 32px;
+    font-weight: 200;
+    position: relative;
+    margin-bottom: 10px;
+    left: 313px;
+margin-top: 10px;
+}
+
+.position_allH {
+    display: flex;
+gap: 115px;
+position: relative;
+left: 15px;
+}
+
+.top5_h2 {
+    font-size: 32px;
+    font-weight: 200;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.top5_h3 {
+    font-size: 32px;
+    font-weight: 200;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.top5_h4 {
+    font-size: 32px;
+    font-weight: 200;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.top5_p1 {
+    line-height: 1.2;
+font-weight: 10;
+
+}
+
+.Line4 {
+    top: 270px;
+    position: relative;
+    left: 350px;
+}
+
+.top5_p2 {
+    margin-top: 40px;
+font-weight: 400;
+}
+
+.BlackWellpaper {
+    position: absolute;
+        background-color: black;
+        padding: 681px;
+        top: 120px;
+        left: 279px;
+        border-radius: 20px;
+        opacity: 70%;
+        height: 550px;
+        z-index: -1;
+    }
+
+.wellpaper{
+        background-image: url('Skyline.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 1920px;
+        height: 1080px;
+        position: absolute;
+        z-index: -1;
+    
+    }
+
+    .wellpaper_2 {
+        background-image: url('wellpaper_Skyline.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 1920px;
+        height: 1080px;
+        top: 1080px;
+        position: absolute;
+        z-index: -1;
+    }
